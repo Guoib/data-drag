@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react-hooks",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "import/no-unresolved": 0,
+    "react/jsx-no-bind": "off",
+    "react/jsx-handler-names": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/destructuring-assignment": "off",
+    "@typescript-eslint/no-var-requires": "off"
+  },
+  "env": {
+    "commonjs": true,
+    "browser": true,
+    "es6": true
+  }
+}

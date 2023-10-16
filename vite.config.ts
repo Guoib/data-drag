@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
+import stylelint from "vite-plugin-stylelint";
 
 const resolve = (p: string) => {
   return path.resolve(__dirname, p);
@@ -8,7 +9,7 @@ const resolve = (p: string) => {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), stylelint({ fix: true })],
   resolve: {
     alias: {
       "@utils": resolve("./src/utils"),
