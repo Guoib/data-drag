@@ -26,17 +26,35 @@
       "@utils": [
         "./src/utils/index.ts"
       ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
       "@components": [
         "./src/components/index.ts"
+      ],
+      "@components/*": [
+        "./src/components/*"
       ],
       "@pages": [
         "./src/pages/index.ts"
       ],
-      "@styles": [
-        "./src/styles/index.scss"
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
       ],
       "@model": [
         "./src/model/index.ts"
+      ],
+      "@model/*": [
+        "./src/model/*"
+      ],
+      "@types": [
+        "./src/types/index.ts"
+      ],
+      "@types/*": [
+        "./src/types/*"
       ]
     }
   },

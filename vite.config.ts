@@ -17,13 +17,14 @@ export default defineConfig({
       "@pages": resolve("./src/pages"),
       "@styles": resolve("./src/styles"),
       "@model": resolve("./src/model"),
+      "@types": resolve("./src/types")
     },
   },
   css: {
     preprocessorOptions: {
       scss: {
         charset: false,
-        additionalData: '@import "./src/styles/global.scss";',
+        additionalData: '@import "./src/styles/mixin.scss";',
       },
     },
   },
