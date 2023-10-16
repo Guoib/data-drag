@@ -21,21 +21,22 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
     "paths": {
       "@utils": [
-        "./src/utils"
+        "./src/utils/index.ts"
       ],
       "@components": [
-        "./src/components"
+        "./src/components/index.ts"
       ],
       "@pages": [
-        "./src/pages"
+        "./src/pages/index.ts"
       ],
       "@styles": [
-        "./src/styles"
+        "./src/styles/index.scss"
       ],
       "@model": [
-        "./src/model"
+        "./src/model/index.ts"
       ]
     }
   },
