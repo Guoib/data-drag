@@ -1,6 +1,7 @@
-function App() {
+import { Main } from "@pages";
 
-  return <div>App</div>;
+function App() {
+  return <Main />;
 }
 
 export default App;
